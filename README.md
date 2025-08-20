@@ -1,4 +1,4 @@
-Trabalho-Fetin-089 — Automação de Respostas a Alertas do Wazuh
+#Trabalho-Fetin-089 — Automação de Respostas a Alertas do Wazuh
 !Status
 !Docker
 !Wazuh
@@ -6,19 +6,19 @@ Trabalho-Fetin-089 — Automação de Respostas a Alertas do Wazuh
 
 ---
 
-📌 Sobre o Projeto
+##📌 Sobre o Projeto
 Este projeto monitora os alertas gerados pelo SIEM Wazuh em tempo real e executa respostas automáticas com base no tipo e nível do alerta.
 
 ---
 
-📜 Funcionalidades
-📄 Leitura e análise do arquivo alerts.json em tempo real.
-🚫 Ações automáticas como bloqueio de IP malicioso.
-📝 Registro de incidentes para auditoria e acompanhamento.
+##📜 Funcionalidades
+-📄 Leitura e análise do arquivo alerts.json em tempo real.
+-🚫 Ações automáticas como bloqueio de IP malicioso.
+-📝 Registro de incidentes para auditoria e acompanhamento.
 
 ---
 
-🐳 Instalação do Wazuh com Docker
+##🐳 Instalação do Wazuh com Docker
 O projeto utiliza a imagem oficial do Wazuh para criar um ambiente de SIEM local.
 
 Componentes Utilizados
